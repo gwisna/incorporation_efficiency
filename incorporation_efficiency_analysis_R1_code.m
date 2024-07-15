@@ -18,7 +18,7 @@ lpx=locs1.lpx;
 lpy=locs1.lpy;
 ellipticity=locs1.ellipticity;
 net_gradient=locs1.net_gradient;
-subgroup=locs1.group-11;
+subgroup=locs1.group-n_picks_per_origami+1;
 
 %assigning origami group to subgroup of localizations
 for i=1:1:length(subgroup)
@@ -88,12 +88,16 @@ for i=1:1:n_picks_per_origami
     end
 end
 
+%plot results
+figure
 histogram(localization_sorted, nbins)
 xlabel('Localizations') 
 ylabel('Counts')
 hold on
 plot((localization_sorted),y)
 
+%plot result
+figure
 bar(detecteddockings_counts(:,1),detecteddockings_counts(:,2))
 xlabel('Detected Dockings') 
 ylabel('Counts') 
