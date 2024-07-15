@@ -6,3 +6,5 @@ Briefly, Picasso processed localization data of super-resolution images of the p
 The aligned picks were then unfolded in the Picasso Render module to get arrays of picks that had been aligned in the same orientation ($https://bit.ly/Incorporation_efficiency_DNA-PAINT_data_and_run_result$). 
 Then, it was fed into a Matlab script that analyzes the incorporation efficiency (incorporation_efficiency_analysis_R1_code.m).
 Download additional files from $https://bit.ly/Incorporation_efficiency_DNA-PAINT_data_and_run_result$ as an input for the .m files and also the result of the .m file is also provided in that folder.
+
+The instruction above will produce the data presented in Figure 2E row 2 in the main text
