@@ -8,3 +8,7 @@ Then, it was fed into a Matlab script that analyzes the incorporation efficiency
 Download additional files from https://bit.ly/Incorporation_efficiency_DNA-PAINT_data_and_run_result as an input for the .m files and also the result of the .m file is also provided in that folder.
 
 The instruction above will produce the data presented in Figure 2E row 2 in the main text.
+
+The code has been tested with Matlab R2022a and R2019 with statistics_toolbox installed. 
+The code incorporation_efficiency_analysis_R1_code.m takes 8 minutes to run Panel2A_Bima_R1 long normal anneal 1nM_R1 5nM_5_TIRF_50ms_15kframes_70mW_locs_render_picked_avg3_picked.hdf5 file on an Alienware Desktop Computer with an Intel Core i7-6800K CPU, 32 GB RAM, and NVIDIA GeForce GTX 1080 graphics card. 
+The code should also run in normal desktop with expected longer time than mentioned above. No additional non-standard hardware is required.
