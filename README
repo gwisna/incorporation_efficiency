@@ -1,5 +1,4 @@
-The file CDFfit_analysis_R1_code.nb in this repository is for CDF fitting to determine the threshold for incorporation efficiency analysis.
-
+The file CDFfit_analysis_R1_code.nb in this repository is for CDF fitting to determine the threshold for incorporation efficiency analysis. It will run a cvs file of localizations with an example given in the file dnapaintloc_longR1_normal_anneal_20210420.csv. The .nb file has been tested to run on Wolfram Mathematica 12.3 and 13.1.
 To estimate the incorporation efficiency, follow the code below:
 The incorporation efficiency analysis followed the method described by Strauss et al. 
 Briefly, Picasso processed localization data of super-resolution images of the patterns using the Picasso pick automatic function. All picks were aligned using the Picasso Average module. 
